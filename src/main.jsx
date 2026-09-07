@@ -37,7 +37,8 @@ const projects = [
     title: "School Management System",
     description: "A structured education management platform covering students, teachers, attendance, fees and notices.",
     tech: ["Java", "React.js", "MySQL"],
-    type: "Full Stack"
+    type: "Full Stack",
+    liveUrl:" https://school-management-system-peach-alpha.vercel.app/"
   },
   {
     number: "04",
