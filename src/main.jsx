@@ -31,6 +31,8 @@ const projects = [
     description: "A database-driven management system designed to handle books, members, staff, issues and fine management.",
     tech: ["Java", "MySQL", "JDBC"],
     type: "Full Stack"
+
+    
   },
   {
     number: "03",
@@ -38,7 +40,7 @@ const projects = [
     description: "A structured education management platform covering students, teachers, attendance, fees and notices.",
     tech: ["Java", "React.js", "MySQL"],
     type: "Full Stack",
-    liveUrl:" https://school-management-system-peach-alpha.vercel.app/"
+    liveUrl:"https://school-management-system-peach-alpha.vercel.app/"
   },
   {
     number: "04",
