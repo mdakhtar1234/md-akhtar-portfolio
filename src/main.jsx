@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
-  ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Menu, X,
+  ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Menu, Phone, X,
   Code2, Database, Server, Monitor, GraduationCap, BriefcaseBusiness,
   ExternalLink, ChevronDown
 } from "lucide-react";
@@ -32,7 +32,7 @@ const projects = [
     tech: ["Java", "MySQL", "JDBC"],
     type: "Full Stack"
 
-    
+
   },
   {
     number: "03",
@@ -40,7 +40,7 @@ const projects = [
     description: "A structured education management platform covering students, teachers, attendance, fees and notices.",
     tech: ["Java", "React.js", "MySQL"],
     type: "Full Stack",
-    liveUrl:"https://school-management-system-peach-alpha.vercel.app/"
+    liveUrl: "https://school-management-system-peach-alpha.vercel.app/"
   },
   {
     number: "04",
@@ -297,6 +297,7 @@ function App() {
               where I can learn, contribute and grow.
             </p>
             <div className="contact-links">
+              <a href="https://wa.me/917091515992" target="_blank" rel="noreferrer"><Phone />+91 70915 15992<ArrowUpRight /></a>
               <a href="mailto:your-email@example.com"><Mail />amd064754@gmail.com<ArrowUpRight /></a>
               <a href="https://www.linkedin.com/in/md-akhtar-ali/" target="_blank" rel="noreferrer"><Linkedin /> LinkedIn <ArrowUpRight /></a>
               <a href="https://github.com/mdakhtar1234" target="_blank" rel="noreferrer"><Github /> GitHub <ArrowUpRight /></a>
